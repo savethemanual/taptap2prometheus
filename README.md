@@ -8,7 +8,7 @@
 ---
 
 ## **📖 Overview**
-`taptap2prometheus` is a lightweight Python script that reads real-time telemetry data from **Tigo TAP gateways** via the `taptap` CLI and exposes it in **Prometheus format**. This allows you to visualize data using **Grafana** for real-time monitoring.
+`taptap2prometheus` is a lightweight Python script that reads real-time telemetry data from **Tigo TAP gateways** via the `taptap` (https://github.com/willglynn/taptap/tree/main) CLI and exposes it in **Prometheus format**. This allows you to visualize data using **Grafana** for real-time monitoring.
 
 **I'm not a dev at all, and this was all done using ChatGPT. I'm just sharing it here so others can more quickly get up and running.**
 
