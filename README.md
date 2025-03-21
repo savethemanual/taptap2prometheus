@@ -11,7 +11,8 @@
 `taptap2prometheus` is a lightweight Python script that reads real-time telemetry data from **Tigo TAP gateways** via the `taptap` (https://github.com/willglynn/taptap/tree/main) CLI and exposes it in **Prometheus format**. This allows you to visualize data using **Grafana** for real-time monitoring.
 
 **I'm not a dev at all, and this was all done using ChatGPT. I'm just sharing it here so others can more quickly get up and running.**
-** I've mapped the node IDs to the matching panels, along with TAP devices, according to my setup (11 panels, 2 TAPs). You will need to change this to match your own setup once you see the data and the assigned node IDs**
+
+**I've mapped the node IDs to the matching panels, along with TAP devices, according to my setup (11 panels, 2 TAPs). You will need to change this to match your own setup once you see the data and the assigned node IDs**
 
 
 ### **🔹 Features**
