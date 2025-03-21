@@ -56,7 +56,7 @@ This will start a **Flask server** exposing the `/metrics` endpoint.
 ### **5️⃣ Verify the Prometheus Metrics**
 Open your browser and visit:
 ```
-http://localhost:8000/metrics
+http://{ip_of_your_server_running_the_script}:8000/metrics
 ```
 
 You should see output like:
