@@ -16,11 +16,11 @@
 
 
 ### **🔹 Features**
-✅ Reads data from **TAP gateways** via serial port  
+✅ Reads data from **TAP gateways** via serial port using taptap  
 ✅ Extracts **voltage, current, power, temperature, and RSSI**  
 ✅ Maps raw **gateway/node IDs to human-readable names**  
 ✅ Serves data in **Prometheus metrics format**  
-✅ Supports **Grafana dashboards** for visualization  
+✅ Supports **Grafana dashboards** for visualization (Adds sum of all panels as a data field for convenience)  
 
 ---
 
