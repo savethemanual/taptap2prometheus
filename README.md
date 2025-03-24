@@ -12,7 +12,7 @@
 
 **I'm not a dev at all, and this was all done using ChatGPT. I'm just sharing it here so others can more quickly get up and running.**
 
-**I've mapped the node IDs to the matching panels, along with TAP devices, according to my setup (11 panels, 2 TAPs). You will need to change this to match your own setup once you see the data and the assigned node IDs**
+**I've mapped the node IDs to the matching panels, along with TAP devices, according to my setup (11 panels, 2 TAPs). You will need to change this to match your own setup once you see the data and the assigned node IDs. I found the best way to do this was to match the RSSI values from taptap to the RSSI values from the Tigo portal. Bear in mind there is a delay for the Tigo portal to get updated, and RSSI values change regularly. It might be easier to do this at the end of the day, as both the Tigo portal and taptap will show the last known RSSI values**
 
 
 ### **🔹 Features**
