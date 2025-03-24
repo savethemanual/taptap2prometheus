@@ -5,6 +5,7 @@ from flask import Flask, Response
 from prometheus_client import Gauge, CollectorRegistry, generate_latest
 
 # Mapping TAPs and Nodes to human-readable names
+# Best to do this by comparing RSSI values between taptap and the Tigo portal
 GATEWAY_MAP = {"4609": "TAP1", "4610": "TAP2"}
 NODE_MAP = {2: "A1", 3: "A2", 4: "A4", 5: "A5", 6: "A3",
             7: "A7", 8: "A9", 9: "A10", 10: "A6", 11: "A8", 12: "A11"}
