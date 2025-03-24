@@ -44,7 +44,7 @@ cd taptap2prometheus
 ```sh
 python3 -m venv taptap-env
 source taptap-env/bin/activate
-pip install -r requirements.txt
+pip install flask prometheus_client
 ```
 
 ### **4️⃣ Run the Exporter**
