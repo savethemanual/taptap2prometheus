@@ -6,8 +6,8 @@ from prometheus_client import Gauge, CollectorRegistry, generate_latest
 
 # Mapping TAPs and Nodes to human-readable names
 GATEWAY_MAP = {"4609": "TAP1", "4610": "TAP2"}
-NODE_MAP = {2: "A1", 3: "A2", 4: "A3", 5: "A4", 6: "A5",
-            7: "A6", 8: "A7", 9: "A8", 10: "A9", 11: "A10", 12: "A11", 13: "A12"}
+NODE_MAP = {2: "A1", 3: "A2", 4: "A4", 5: "A5", 6: "A3",
+            7: "A7", 8: "A9", 9: "A10", 10: "A6", 11: "A8", 12: "A11"}
 
 # Prometheus registry and metrics
 registry = CollectorRegistry()
