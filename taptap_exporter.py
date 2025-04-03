@@ -74,7 +74,7 @@ def run_taptap():
     while True:
         try:
             process = subprocess.Popen(
-                ["/root/target/release/taptap", "observe", "--serial", "/dev/ttyUSB0"],
+                ["/root/taptap/target/release/taptap", "observe", "--serial", "/dev/ttyUSB0"],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
